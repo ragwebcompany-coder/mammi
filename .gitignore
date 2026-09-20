@@ -1,0 +1,8 @@
+# Τα ακατέργαστα βίντεο του πελάτη: 74 MB, δεν έχουν θέση στο git.
+# Τα έτοιμα, συμπιεσμένα βρίσκονται στο assets/video/ και είναι μέσα στο repo.
+# Πρωτότυπα: Google Drive → CLIENTS FORM/2026-09-18 · BNL Maria Mammi · Αισθητικός/
+_build/src-media/*.mp4
+
+__pycache__/
+*.pyc
+.DS_Store

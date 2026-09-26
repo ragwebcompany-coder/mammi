@@ -1144,7 +1144,7 @@ function pageBlogHub() {
       <div class="container phead-inner">
         <p class="eyebrow reveal">${esc(t(UI.nav.blog, lang))}</p>
         <h1 class="phead-title reveal">Ό,τι μας ρωτάτε <em>πιο συχνά</em></h1>
-        <p class="phead-lead reveal">Δέκα κείμενα για τα πράγματα που ακούμε κάθε εβδομάδα στην καμπίνα. Γραμμένα για το κλίμα της Κω, όχι αντιγραμμένα από αλλού.</p>
+        <p class="phead-lead reveal">Κείμενα για τα πράγματα που ακούμε κάθε εβδομάδα στην καμπίνα — από την αφυδάτωση και το laser μέχρι τις βιταμίνες και τις θεραπείες σώματος. Γραμμένα από εμάς, όχι αντιγραμμένα από αλλού.</p>
       </div>
     </section>
 

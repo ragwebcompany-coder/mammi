@@ -1,6 +1,6 @@
 // Έλεγχος ακεραιότητας του παραγόμενου site:
 // σπασμένοι σύνδεσμοι, εικόνες/βίντεο που λείπουν, άκυρο JSON-LD,
-// hreflang που δείχνει στο πουθενά, sitemap, credit CLINICBRAIN.
+// hreflang που δείχνει στο πουθενά, sitemap, credit ASTRA.
 import { readFileSync, existsSync, readdirSync, statSync } from "node:fs";
 import { resolve, dirname, join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -71,7 +71,7 @@ for (const f of html) {
     if (!exists(resolve(ROOT, p || "index.html"))) add(f, `canonical → ${can[1]} δεν υπάρχει`);
   } else if (!f.endsWith("404.html")) add(f, "λείπει canonical");
   // --- credit
-  if (!src.includes("clinicbrain.gr")) add(f, "λείπει το credit CLINICBRAIN");
+  if (!src.includes("astramarketing.gr")) add(f, "λείπει το credit ASTRA");
   // --- alt σε εικόνες
   for (const m of src.matchAll(/<img\b([^>]*)>/g)) {
     if (!/\balt=/.test(m[1])) add(f, "εικόνα χωρίς alt: " + m[1].slice(0, 60));

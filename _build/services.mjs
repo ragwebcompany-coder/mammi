@@ -101,16 +101,18 @@ export const SERVICES = [
         "Ο καθαρισμός είναι η βάση. Όσο καλό και να είναι το προϊόν που θα ακολουθήσει, αν οι πόροι είναι φραγμένοι δεν φτάνει εκεί που πρέπει. Γι' αυτό ο καθαρισμός δεν είναι «πολυτέλεια πριν από τις γιορτές» — είναι το πρώτο βήμα κάθε σοβαρού πλάνου περιποίησης.",
         "Δουλεύουμε με υδροδερμοαπόξεση: μια κεφαλή που συνδυάζει νερό, ήπια υποπίεση και ενεργά διαλύματα. Απομακρύνει νεκρά κύτταρα και περιεχόμενο πόρων χωρίς τριβή και χωρίς το τράβηγμα των κλασικών μεθόδων, και ταυτόχρονα περνά ενυδατικά και αντιοξειδωτικά στο δέρμα. Όπου χρειάζεται, ακολουθεί χειρωνακτική εκκένωση με αποστειρωμένα εργαλεία.",
         "Η συνεδρία κλείνει με καταπραϋντική μάσκα επιλεγμένη για τον δικό σας τύπο δέρματος και με αντηλιακή προστασία. Φεύγετε χωρίς κοκκινίλα που να σας εμποδίζει να βγείτε — δεν υπάρχει χρόνος ανάρρωσης. Σε λιπαρό ή με τάση ακμής δέρμα προτείνουμε κάθε τέσσερις εβδομάδες, σε ξηρό κάθε έξι έως οκτώ.",
+        "Όταν το δέρμα είναι θαμπό και επιβαρυμένο — από ήλιο, μακιγιάζ, κάπνισμα ή απλώς μια κουραστική περίοδο — προτείνουμε τη θεραπεία αποτοξίνωσης προσώπου: ένα πιο εντατικό πρωτόκολλο μίας ώρας, με ενεργά που βοηθούν το δέρμα να αποβάλει ό,τι το βαραίνει και να ανακτήσει το χρώμα και τη φρεσκάδα του.",
       ],
       en: [
         "Cleansing is the foundation. However good the product that follows, if the pores are blocked it never reaches where it should. That is why cleansing is not a treat before the holidays — it is the first step of any serious skincare plan.",
         "We work with hydrodermabrasion: a handpiece that combines water, gentle vacuum and active solutions. It lifts dead cells and pore content without abrasion and without the pulling of classic methods, while delivering hydrating and antioxidant actives into the skin. Where needed, manual extraction with sterile instruments follows.",
         "The session closes with a calming mask chosen for your skin type and with sun protection. You leave without redness that would stop you going out — there is no downtime. For oily or acne-prone skin we suggest every four weeks; for dry skin, every six to eight.",
+        "When skin looks dull and congested — from sun, make-up, smoking or simply a demanding stretch of life — we suggest the facial detox treatment: a more intensive one-hour protocol, with actives that help the skin shed what weighs it down and recover its colour and freshness.",
       ],
     },
     includes: {
-      el: ["Ανάλυση τύπου δέρματος", "Απολέπιση & υδροδερμοαπόξεση", "Χειρωνακτική εκκένωση πόρων όπου χρειάζεται", "Ορός ενεργών συστατικών κατά περίπτωση", "Καταπραϋντική μάσκα & αντηλιακή προστασία"],
-      en: ["Skin-type analysis", "Exfoliation and hydrodermabrasion", "Manual pore extraction where needed", "Active serum selected per case", "Calming mask and sun protection"],
+      el: ["Ανάλυση τύπου δέρματος", "Απολέπιση & υδροδερμοαπόξεση", "Χειρωνακτική εκκένωση πόρων όπου χρειάζεται", "Θεραπεία αποτοξίνωσης για επιβαρυμένο δέρμα", "Ορός ενεργών συστατικών κατά περίπτωση", "Καταπραϋντική μάσκα & αντηλιακή προστασία"],
+      en: ["Skin-type analysis", "Exfoliation and hydrodermabrasion", "Manual pore extraction where needed", "Detox treatment for congested skin", "Active serum selected per case", "Calming mask and sun protection"],
     },
     faq: {
       el: [
@@ -147,24 +149,24 @@ export const SERVICES = [
       en: "Facial mesotherapy in Zipari, Kos with personalised cocktails of hyaluronic acid, vitamins and amino acids. For deep hydration, glow and fine lines.",
     },
     keywords: {
-      el: "μεσοθεραπεία προσώπου Κως, μεσοθεραπεία Ζηπάρι, ενυδάτωση προσώπου Κως",
-      en: "facial mesotherapy Kos, mesotherapy Zipari, facial hydration Kos",
+      el: "μεσοθεραπεία προσώπου Κως, μεσοθεραπεία Ζηπάρι, ενυδάτωση προσώπου Κως, πολυνουκλεοτίδια Κως",
+      en: "facial mesotherapy Kos, mesotherapy Zipari, facial hydration Kos, polynucleotides Kos",
     },
     body: {
       el: [
         "Η κρέμα δουλεύει στην επιφάνεια. Υπάρχει όμως ένα όριο στο πόσο βαθιά μπορεί να φτάσει ένα ενεργό συστατικό όταν απλώνεται από πάνω, και αυτό το όριο είναι συχνά ο λόγος που μια σωστή ρουτίνα δεν δίνει το αποτέλεσμα που θα περίμενε κανείς.",
         "Η μεσοθεραπεία λύνει ακριβώς αυτό. Με πολύ λεπτές βελόνες ή με συσκευή microneedling, το cocktail μπαίνει στο επίπεδο όπου χρειάζεται: υαλουρονικό για ενυδάτωση, βιταμίνες και αμινοξέα για λάμψη, πεπτίδια και αντιοξειδωτικά για την υφή. Η σύνθεση δεν είναι ίδια για όλους — καθορίζεται από την ανάλυση της επιδερμίδας.",
-        "Στο κέντρο μας συνδυάζουμε τη μεσοθεραπεία με exosomes και multisomes της Dermagenetic, που ενισχύουν την αντιοξειδωτική ικανότητα του δέρματος και τους μηχανισμούς επιδιόρθωσης. Συνήθως προτείνεται κύκλος τεσσάρων έως έξι συνεδριών ανά δεκαπενθήμερο και στη συνέχεια συντήρηση.",
+        "Στο κέντρο μας συνδυάζουμε τη μεσοθεραπεία με exosomes και multisomes της Dermagenetic, που ενισχύουν την αντιοξειδωτική ικανότητα του δέρματος και τους μηχανισμούς επιδιόρθωσης, καθώς και με πολυνουκλεοτίδια — βιοδιεγέρτες νέας γενιάς που επιδιορθώνουν και πυκνώνουν το δέρμα σε βάθος. Συνήθως προτείνεται κύκλος τεσσάρων έως έξι συνεδριών ανά δεκαπενθήμερο και στη συνέχεια συντήρηση.",
       ],
       en: [
         "Cream works at the surface. But there is a limit to how deep an active can travel when it is spread on from above, and that limit is often why a perfectly good routine does not deliver what you would expect.",
         "Mesotherapy solves exactly that. With very fine needles or a microneedling device, the cocktail is placed at the level where it is needed: hyaluronic acid for hydration, vitamins and amino acids for glow, peptides and antioxidants for texture. The formula is not the same for everyone — it follows from the skin analysis.",
-        "At our centre we combine mesotherapy with Dermagenetic exosomes and multisomes, which strengthen the skin's antioxidant capacity and its repair mechanisms. A course of four to six sessions every two weeks is usual, followed by maintenance.",
+        "At our centre we combine mesotherapy with Dermagenetic exosomes and multisomes, which strengthen the skin's antioxidant capacity and its repair mechanisms, as well as with polynucleotides — new-generation biostimulators that repair and densify the skin at depth. A course of four to six sessions every two weeks is usual, followed by maintenance.",
       ],
     },
     includes: {
-      el: ["Ανάλυση και σχεδιασμός του cocktail", "Καθαρισμός & προετοιμασία επιδερμίδας", "Εφαρμογή με βελόνα ή microneedling", "Exosomes ή multisomes όπου ενδείκνυται", "Καταπραϋντική μάσκα & οδηγίες φροντίδας"],
-      en: ["Analysis and design of the cocktail", "Cleansing and skin preparation", "Application by needle or microneedling", "Exosomes or multisomes where indicated", "Calming mask and aftercare instructions"],
+      el: ["Ανάλυση και σχεδιασμός του cocktail", "Καθαρισμός & προετοιμασία επιδερμίδας", "Εφαρμογή με βελόνα ή microneedling", "Exosomes, multisomes ή πολυνουκλεοτίδια όπου ενδείκνυται", "Καταπραϋντική μάσκα & οδηγίες φροντίδας"],
+      en: ["Analysis and design of the cocktail", "Cleansing and skin preparation", "Application by needle or microneedling", "Exosomes, multisomes or polynucleotides where indicated", "Calming mask and aftercare instructions"],
     },
     faq: {
       el: [
@@ -256,24 +258,26 @@ export const SERVICES = [
       en: "Anti-ageing treatments in Zipari, Kos with Dermagenetic exosomes, multisomes and retinol. Less chronic inflammation, a stronger skin barrier, visible glow.",
     },
     keywords: {
-      el: "αντιγήρανση Κως, exosomes Κως, ρετινόλη Κως, θεραπεία ρυτίδων Ζηπάρι, skin longevity",
-      en: "anti-ageing Kos, exosomes Kos, retinol Kos, wrinkle treatment Zipari, skin longevity",
+      el: "αντιγήρανση Κως, exosomes Κως, ρετινόλη Κως, πολυνουκλεοτίδια Κως, θεραπεία χειλιών Κως, θεραπεία ρυτίδων Ζηπάρι, skin longevity",
+      en: "anti-ageing Kos, exosomes Kos, retinol Kos, polynucleotides Kos, lip treatment Kos, wrinkle treatment Zipari, skin longevity",
     },
     body: {
       el: [
         "Το «skin longevity» δεν είναι μάρκετινγκ, είναι αλλαγή στόχου. Δεν προσπαθούμε να εξαφανίσουμε κάθε γραμμή· προσπαθούμε να μειώσουμε τη χρόνια φλεγμονή, να προστατεύσουμε τον δερματικό φραγμό και τη χλωρίδα του, να υποστηρίξουμε την κυτταρική ενέργεια και να προσαρμόσουμε τη φροντίδα στην ηλικία και στον τρόπο ζωής.",
-        "Στην πράξη αυτό σημαίνει τρία εργαλεία που δουλεύουν μαζί. Τα exosomes μεταφέρουν σήματα από κύτταρο σε κύτταρο, ενεργοποιώντας την παραγωγή κολλαγόνου και ελαστίνης και μειώνοντας τη φλεγμονή. Τα multisomes είναι προϊόν εξωκυττάρωσης που ενισχύει τους μηχανισμούς επιδιόρθωσης. Η ρετινόλη σε αμπούλα, στη βραδινή ρουτίνα, δουλεύει την κυτταρική ανανέωση, τους πόρους και την υπερμελάγχρωση.",
-        "Κανένα από τα τρία δεν είναι «για όλους». Τα exosomes δεν ενδείκνυνται σε ενεργή λοίμωξη ή σε όσες θέλουν αποτέλεσμα χωρίς κανένα ερέθισμα ανάπλασης, και η ρετινόλη χρειάζεται σταδιακή εισαγωγή. Γι' αυτό η επιλογή γίνεται μετά από ανάλυση και όχι από κατάλογο.",
+        "Στην πράξη αυτό σημαίνει τέσσερα εργαλεία που δουλεύουν μαζί. Τα exosomes μεταφέρουν σήματα από κύτταρο σε κύτταρο, ενεργοποιώντας την παραγωγή κολλαγόνου και ελαστίνης και μειώνοντας τη φλεγμονή. Τα multisomes είναι προϊόν εξωκυττάρωσης που ενισχύει τους μηχανισμούς επιδιόρθωσης. Τα πολυνουκλεοτίδια είναι βιοδιεγέρτες που επιδιορθώνουν και πυκνώνουν το δέρμα σε βάθος. Η ρετινόλη σε αμπούλα, στη βραδινή ρουτίνα, δουλεύει την κυτταρική ανανέωση, τους πόρους και την υπερμελάγχρωση.",
+        "Το πρόγραμμα συμπληρώνουν η ενεργειακή θεραπεία προσώπου, που τονώνει την κυτταρική ενέργεια και τη μικροκυκλοφορία όταν το δέρμα δείχνει κουρασμένο και θαμπό, και η στοχευμένη θεραπεία χειλιών — μια σύντομη περιποίηση που ενυδατώνει και μαλακώνει τις γραμμές γύρω από το στόμα, μια περιοχή που γερνά νωρίτερα από το υπόλοιπο πρόσωπο.",
+        "Κανένα από αυτά δεν είναι «για όλους». Τα exosomes δεν ενδείκνυνται σε ενεργή λοίμωξη ή σε όσες θέλουν αποτέλεσμα χωρίς κανένα ερέθισμα ανάπλασης, και η ρετινόλη χρειάζεται σταδιακή εισαγωγή. Γι' αυτό η επιλογή γίνεται μετά από ανάλυση και όχι από κατάλογο.",
       ],
       en: [
         "Skin longevity is not marketing, it is a change of target. We are not trying to erase every line; we are trying to reduce chronic inflammation, protect the skin barrier and its microbiome, support cellular energy, and adapt care to your age and lifestyle.",
-        "In practice that means three tools working together. Exosomes carry signals from cell to cell, triggering collagen and elastin production and lowering inflammation. Multisomes are an exocytosis product that strengthens repair mechanisms. Retinol in ampoule form, used in the evening routine, works on cell turnover, pores and hyperpigmentation.",
-        "None of the three is for everyone. Exosomes are not indicated with an active infection, or for someone who wants results with no regenerative stimulus at all, and retinol needs to be introduced gradually. That is why the choice follows an analysis rather than a menu.",
+        "In practice that means four tools working together. Exosomes carry signals from cell to cell, triggering collagen and elastin production and lowering inflammation. Multisomes are an exocytosis product that strengthens repair mechanisms. Polynucleotides are biostimulators that repair and densify the skin at depth. Retinol in ampoule form, used in the evening routine, works on cell turnover, pores and hyperpigmentation.",
+        "The programme is rounded out by the energy facial, which boosts cellular energy and microcirculation when skin looks tired and dull, and by the targeted lip treatment — a short session that hydrates and softens the lines around the mouth, an area that ages earlier than the rest of the face.",
+        "None of these is for everyone. Exosomes are not indicated with an active infection, or for someone who wants results with no regenerative stimulus at all, and retinol needs to be introduced gradually. That is why the choice follows an analysis rather than a menu.",
       ],
     },
     includes: {
-      el: ["Ανάλυση επιδερμίδας & στόχων", "Πρωτόκολλο με exosomes ή multisomes", "Συνδυασμός με microneedling όπου ενδείκνυται", "Αμπούλα ρετινόλης για τη βραδινή ρουτίνα", "Πλάνο φροντίδας προσαρμοσμένο στην ηλικία"],
-      en: ["Skin and goal analysis", "Protocol with exosomes or multisomes", "Combined with microneedling where indicated", "Retinol ampoule for the evening routine", "A care plan adapted to your age"],
+      el: ["Ανάλυση επιδερμίδας & στόχων", "Πρωτόκολλο με exosomes, multisomes ή πολυνουκλεοτίδια", "Συνδυασμός με microneedling όπου ενδείκνυται", "Ενεργειακή θεραπεία & θεραπεία χειλιών κατά περίπτωση", "Αμπούλα ρετινόλης για τη βραδινή ρουτίνα", "Πλάνο φροντίδας προσαρμοσμένο στην ηλικία"],
+      en: ["Skin and goal analysis", "Protocol with exosomes, multisomes or polynucleotides", "Combined with microneedling where indicated", "Energy facial and lip treatment where suited", "Retinol ampoule for the evening routine", "A care plan adapted to your age"],
     },
     faq: {
       el: [
@@ -418,24 +422,24 @@ export const SERVICES = [
       en: "Deep hydration and nourishing facial in Zipari, Kos. For skin stressed by sun, sea and air-conditioning — with skin-barrier support.",
     },
     keywords: {
-      el: "ενυδάτωση προσώπου Κως, αφυδατωμένο δέρμα Κως, θεραπεία θρέψης Ζηπάρι",
-      en: "facial hydration Kos, dehydrated skin Kos, nourishing facial Zipari",
+      el: "ενυδάτωση προσώπου Κως, αφυδατωμένο δέρμα Κως, θεραπεία θρέψης Ζηπάρι, θεραπεία μικροβιώματος Κως",
+      en: "facial hydration Kos, dehydrated skin Kos, nourishing facial Zipari, microbiome treatment Kos",
     },
     body: {
       el: [
         "Στην Κω το δέρμα δέχεται πίεση από τρεις πλευρές ταυτόχρονα: ήλιο, αλάτι και κλιματισμό. Το αποτέλεσμα είναι αφυδάτωση, δηλαδή έλλειψη νερού — που είναι διαφορετικό πράγμα από την ξηρότητα, την έλλειψη λιπιδίων. Και επειδή το αφυδατωμένο δέρμα παράγει περισσότερο σμήγμα για να αντισταθμίσει, πολλές φορές περιγράφεται λανθασμένα ως λιπαρό.",
-        "Η θεραπεία δουλεύει σε δύο επίπεδα. Πρώτα δίνει νερό στο δέρμα με υαλουρονικό διαφορετικού μοριακού βάρους, ώστε να ενυδατωθούν και οι επιφανειακές και οι βαθύτερες στιβάδες. Έπειτα χτίζει τον φραγμό με λιπίδια, κεραμίδια και καταπραϋντικά, ώστε το νερό να μένει μέσα.",
+        "Η θεραπεία δουλεύει σε δύο επίπεδα. Πρώτα δίνει νερό στο δέρμα με υαλουρονικό διαφορετικού μοριακού βάρους, ώστε να ενυδατωθούν και οι επιφανειακές και οι βαθύτερες στιβάδες. Έπειτα χτίζει τον φραγμό με λιπίδια, κεραμίδια και καταπραϋντικά, ώστε το νερό να μένει μέσα. Και επειδή υγιής φραγμός δεν σημαίνει μόνο λιπίδια αλλά και ισορροπημένη χλωρίδα, για δέρμα ευαισθητοποιημένο ή ταλαιπωρημένο προτείνουμε τη θεραπεία μικροβιώματος — μια ειδική περιποίηση που αποκαθιστά το φυσικό μικροβίωμα του δέρματος.",
         "Το αποτέλεσμα είναι άμεσο και ορατό: το δέρμα φαίνεται γεμάτο, οι λεπτές γραμμές αφυδάτωσης μαλακώνουν και η λάμψη επιστρέφει. Είναι η θεραπεία που προτείνουμε πιο συχνά σε πρώτη επίσκεψη, γιατί σε πολλές περιπτώσεις λύνει μόνη της ό,τι φαινόταν σύνθετο πρόβλημα.",
       ],
       en: [
         "In Kos, skin is under pressure from three directions at once: sun, salt and air-conditioning. The result is dehydration — a lack of water, which is a different thing from dryness, a lack of lipids. And because dehydrated skin produces more sebum to compensate, it is often wrongly described as oily.",
-        "The treatment works on two levels. First it gives the skin water, using hyaluronic acid at different molecular weights so both the surface and the deeper layers are hydrated. Then it rebuilds the barrier with lipids, ceramides and soothing agents, so the water stays in.",
+        "The treatment works on two levels. First it gives the skin water, using hyaluronic acid at different molecular weights so both the surface and the deeper layers are hydrated. Then it rebuilds the barrier with lipids, ceramides and soothing agents, so the water stays in. And because a healthy barrier is not just lipids but also a balanced flora, for sensitised or stressed skin we suggest the microbiome treatment — a dedicated protocol that restores the skin's natural microbiome.",
         "The effect is immediate and visible: the skin looks full, fine dehydration lines soften and glow returns. It is the treatment we most often suggest at a first visit, because in many cases it resolves on its own what looked like a complicated problem.",
       ],
     },
     includes: {
-      el: ["Μέτρηση επιπέδου ενυδάτωσης", "Ήπιος καθαρισμός & απολέπιση", "Υαλουρονικό πολλαπλού μοριακού βάρους", "Λιπίδια & κεραμίδια για τον φραγμό", "Μάσκα εντατικής ενυδάτωσης"],
-      en: ["Hydration-level measurement", "Gentle cleansing and exfoliation", "Multi-weight hyaluronic acid", "Lipids and ceramides for the barrier", "Intensive hydrating mask"],
+      el: ["Μέτρηση επιπέδου ενυδάτωσης", "Ήπιος καθαρισμός & απολέπιση", "Υαλουρονικό πολλαπλού μοριακού βάρους", "Λιπίδια & κεραμίδια για τον φραγμό", "Θεραπεία μικροβιώματος για ευαισθητοποιημένο δέρμα", "Μάσκα εντατικής ενυδάτωσης"],
+      en: ["Hydration-level measurement", "Gentle cleansing and exfoliation", "Multi-weight hyaluronic acid", "Lipids and ceramides for the barrier", "Microbiome treatment for sensitised skin", "Intensive hydrating mask"],
     },
     faq: {
       el: [
@@ -471,28 +475,28 @@ export const SERVICES = [
       en: "Slimming & Lipolysis in Kos | Localised Fat — BNL Zipari",
     },
     desc: {
-      el: "Θεραπείες αδυνατίσματος και λιποδιάλυσης στο Ζηπάρι Κω. Μηχανήματα σώματος για τοπικό πάχος σε κοιλιά, γλουτούς και μηρούς, με μέτρηση σύστασης σώματος.",
-      en: "Slimming and lipolysis treatments in Zipari, Kos. Body technology for localised fat on the abdomen, buttocks and thighs, with body-composition measurement.",
+      el: "Θεραπείες αδυνατίσματος και λιποδιάλυσης στο Ζηπάρι Κω με Fraxlipo EMS και Endola (RF, υπέρυθρο laser, κύλινδροι, vacuum). Για τοπικό πάχος σε κοιλιά, γλουτούς και μηρούς, με μέτρηση σύστασης σώματος.",
+      en: "Slimming and lipolysis treatments in Zipari, Kos with Fraxlipo EMS and Endola (RF, infrared laser, rollers, vacuum). For localised fat on the abdomen, buttocks and thighs, with body-composition measurement.",
     },
     keywords: {
-      el: "αδυνάτισμα Κως, λιποδιάλυση Κως, τοπικό πάχος Κως, μηχανήματα σώματος Ζηπάρι",
-      en: "slimming Kos, lipolysis Kos, localised fat Kos, body treatments Zipari",
+      el: "αδυνάτισμα Κως, λιποδιάλυση Κως, τοπικό πάχος Κως, μηχανήματα σώματος Ζηπάρι, Fraxlipo EMS Κως, Endola Κως, κυτταρίτιδα Κως",
+      en: "slimming Kos, lipolysis Kos, localised fat Kos, body treatments Zipari, Fraxlipo EMS Kos, Endola Kos, cellulite Kos",
     },
     body: {
       el: [
         "Το τοπικό πάχος έχει μια εκνευριστική ιδιότητα: δεν ακολουθεί το υπόλοιπο σώμα. Κάποιος μπορεί να χάσει βάρος παντού και η κοιλιά ή οι μηροί να μείνουν ίδιοι. Αυτό συμβαίνει γιατί το λίπος σε αυτές τις περιοχές είναι λιγότερο ευαίσθητο στα ορμονικά σήματα της λιπόλυσης.",
-        "Οι θεραπείες λιποδιάλυσης δουλεύουν ακριβώς εκεί: κινητοποιούν το λίπος στη συγκεκριμένη περιοχή και το κάνουν διαθέσιμο προς αποβολή. Κάθε συνεδρία κλείνει με λεμφική αποσυμφόρηση ή πρεσσοθεραπεία, ώστε ό,τι κινητοποιήθηκε να φύγει πραγματικά και να μη γυρίσει πίσω.",
+        "Οι θεραπείες λιποδιάλυσης δουλεύουν ακριβώς εκεί: κινητοποιούν το λίπος στη συγκεκριμένη περιοχή και το κάνουν διαθέσιμο προς αποβολή. Στο κέντρο μας αυτό γίνεται με μηχανήματα νέας γενιάς. Το Fraxlipo EMS συνδυάζει τη λιποδιάλυση με ηλεκτρομυοδιέγερση, ώστε την ώρα που διασπάται το τοπικό λίπος να γυμνάζεται και ο μυς από κάτω. Το Endola ενώνει ραδιοσυχνότητες, υπέρυθρο laser, μηχανικούς κυλίνδρους και υποπίεση (vacuum) σε μία κεφαλή — δουλεύει ταυτόχρονα το λίπος, την κυτταρίτιδα και την υφή του δέρματος. Κάθε συνεδρία κλείνει με λεμφική αποσυμφόρηση ή πρεσσοθεραπεία, ώστε ό,τι κινητοποιήθηκε να φύγει πραγματικά και να μη γυρίσει πίσω.",
         "Θα είμαστε ειλικρινείς: καμία θεραπεία σώματος δεν αντικαθιστά τη διατροφή και την κίνηση. Λειτουργεί όμως πολύ καλά ως επιτάχυνση και ως λύση για τις περιοχές που αντιστέκονται. Πριν ξεκινήσουμε γίνεται μέτρηση σύστασης σώματος με τον μαγνητικό αναλυτή, και επαναλαμβάνεται στο τέλος του κύκλου — ώστε να μιλάμε με αριθμούς.",
       ],
       en: [
         "Localised fat has an infuriating property: it does not follow the rest of the body. Someone can lose weight everywhere and the abdomen or thighs stay exactly the same. That happens because fat in these areas is less responsive to the hormonal signals of lipolysis.",
-        "Lipolysis treatments work precisely there: they mobilise fat in a specific area and make it available for elimination. Every session closes with lymphatic drainage or pressotherapy, so that what was mobilised actually leaves rather than settling back.",
+        "Lipolysis treatments work precisely there: they mobilise fat in a specific area and make it available for elimination. At our centre this is done with new-generation equipment. Fraxlipo EMS combines lipolysis with electro-muscle stimulation, so that while localised fat is being broken down, the muscle beneath is being worked as well. Endola brings radiofrequency, infrared laser, mechanical rollers and vacuum together in a single handpiece — treating fat, cellulite and skin texture at the same time. Every session closes with lymphatic drainage or pressotherapy, so that what was mobilised actually leaves rather than settling back.",
         "We will be honest: no body treatment replaces diet and movement. But it works very well as an accelerator and as a solution for the areas that resist. Before we start we measure body composition with the magnetic analyser, and repeat it at the end of the course — so we can talk in numbers.",
       ],
     },
     includes: {
-      el: ["Μέτρηση σύστασης σώματος", "Στοχευμένο πρωτόκολλο ανά περιοχή", "Θεραπεία λιποδιάλυσης με μηχάνημα", "Λεμφική αποσυμφόρηση στο κλείσιμο", "Επαναμέτρηση στο τέλος του κύκλου"],
-      en: ["Body-composition measurement", "Targeted protocol per area", "Device-assisted lipolysis treatment", "Lymphatic drainage to close the session", "Re-measurement at the end of the course"],
+      el: ["Μέτρηση σύστασης σώματος", "Στοχευμένο πρωτόκολλο ανά περιοχή", "Λιποδιάλυση με Fraxlipo EMS", "Endola: RF, υπέρυθρο laser, κύλινδροι & vacuum", "Λεμφική αποσυμφόρηση στο κλείσιμο", "Επαναμέτρηση στο τέλος του κύκλου"],
+      en: ["Body-composition measurement", "Targeted protocol per area", "Lipolysis with Fraxlipo EMS", "Endola: RF, infrared laser, rollers & vacuum", "Lymphatic drainage to close the session", "Re-measurement at the end of the course"],
     },
     faq: {
       el: [
@@ -525,28 +529,28 @@ export const SERVICES = [
       en: "Body Firming & Contouring in Kos | BNL Zipari",
     },
     desc: {
-      el: "Θεραπείες σύσφιξης, ανόρθωσης και λιπογλυπτικής στο Ζηπάρι Κω. Για χαλάρωση μετά από απώλεια βάρους ή εγκυμοσύνη, με ραδιοσυχνότητες και στοχευμένα πρωτόκολλα.",
-      en: "Firming, lifting and body-contouring treatments in Zipari, Kos. For laxity after weight loss or pregnancy, using radiofrequency and targeted protocols.",
+      el: "Θεραπείες σύσφιξης, ανόρθωσης και λιπογλυπτικής στο Ζηπάρι Κω. Για χαλάρωση μετά από απώλεια βάρους ή εγκυμοσύνη, με ραδιοσυχνότητες και Endola HIFU.",
+      en: "Firming, lifting and body-contouring treatments in Zipari, Kos. For laxity after weight loss or pregnancy, using radiofrequency and Endola HIFU.",
     },
     keywords: {
-      el: "σύσφιξη σώματος Κως, λιπογλυπτική Κως, ανόρθωση γλουτών Κως, χαλάρωση δέρματος Ζηπάρι",
-      en: "body firming Kos, body contouring Kos, buttock lifting Kos, skin laxity Zipari",
+      el: "σύσφιξη σώματος Κως, λιπογλυπτική Κως, ανόρθωση γλουτών Κως, χαλάρωση δέρματος Ζηπάρι, HIFU Κως, Endola HIFU Κως",
+      en: "body firming Kos, body contouring Kos, buttock lifting Kos, skin laxity Zipari, HIFU Kos, Endola HIFU Kos",
     },
     body: {
       el: [
         "Μετά από απώλεια βάρους, μετά από εγκυμοσύνη ή απλώς με τα χρόνια, το δέρμα του σώματος χαλαρώνει. Το περίεργο είναι ότι όσο περισσότερο βάρος χάνει κανείς, τόσο πιο έντονα φαίνεται — γιατί το λίπος που γέμιζε τον χώρο έφυγε, αλλά το δέρμα δεν μαζεύτηκε ανάλογα.",
-        "Η σύσφιξη δουλεύει με ερέθισμα, όχι με αφαίρεση. Οι ραδιοσυχνότητες θερμαίνουν ελεγχόμενα το χόριο και ενεργοποιούν τους ινοβλάστες να παράγουν νέο κολλαγόνο και ελαστίνη. Το αποτέλεσμα δεν είναι άμεσο: χτίζεται στις εβδομάδες μετά τη συνεδρία, και γι' αυτό ο κύκλος έχει νόημα μόνο ολόκληρος.",
+        "Η σύσφιξη δουλεύει με ερέθισμα, όχι με αφαίρεση. Οι ραδιοσυχνότητες θερμαίνουν ελεγχόμενα το χόριο και ενεργοποιούν τους ινοβλάστες να παράγουν νέο κολλαγόνο και ελαστίνη. Όπου η χαλάρωση είναι βαθύτερη, χρησιμοποιούμε το Endola HIFU — εστιασμένους υπερήχους υψηλής έντασης που φτάνουν με ακρίβεια στα στρώματα κάτω από το χόριο, χωρίς να αγγίζουν την επιφάνεια. Το αποτέλεσμα δεν είναι άμεσο: χτίζεται στις εβδομάδες μετά τη συνεδρία, και γι' αυτό ο κύκλος έχει νόημα μόνο ολόκληρος.",
         "Η λιπογλυπτική είναι το επόμενο βήμα: αντί να μειώσουμε παντού, δουλεύουμε το περίγραμμα. Στοχεύουμε σε συγκεκριμένες περιοχές — μέση, γλουτοί, εσωτερικό μηρού, μπράτσα — ώστε το σχήμα να βελτιωθεί και όχι απλώς το μέγεθος. Συνδυάζεται σχεδόν πάντα με λεμφική αποσυμφόρηση.",
       ],
       en: [
         "After weight loss, after pregnancy, or simply with the years, body skin loosens. The odd part is that the more weight you lose, the more obvious it becomes — the fat that filled the space has gone, but the skin has not retracted to match.",
-        "Firming works by stimulus, not by removal. Radiofrequency heats the dermis in a controlled way and prompts fibroblasts to produce new collagen and elastin. The result is not immediate: it builds over the weeks after the session, which is why a course only makes sense in full.",
+        "Firming works by stimulus, not by removal. Radiofrequency heats the dermis in a controlled way and prompts fibroblasts to produce new collagen and elastin. Where the laxity sits deeper, we use Endola HIFU — high-intensity focused ultrasound that reaches the layers below the dermis with precision, without touching the surface. The result is not immediate: it builds over the weeks after the session, which is why a course only makes sense in full.",
         "Body contouring is the next step: instead of reducing everywhere, we work the outline. We target specific areas — waist, buttocks, inner thigh, arms — so that the shape improves rather than just the size. It is almost always combined with lymphatic drainage.",
       ],
     },
     includes: {
-      el: ["Αξιολόγηση ελαστικότητας ανά περιοχή", "Πρωτόκολλο RF σώματος", "Στοχευμένη λιπογλυπτική περιγράμματος", "Λεμφική αποσυμφόρηση στο κλείσιμο", "Οδηγίες ενυδάτωσης & κίνησης"],
-      en: ["Elasticity assessment per area", "Body RF protocol", "Targeted contour sculpting", "Lymphatic drainage to close", "Hydration and movement guidance"],
+      el: ["Αξιολόγηση ελαστικότητας ανά περιοχή", "Πρωτόκολλο RF σώματος", "Endola HIFU για βαθύτερη χαλάρωση", "Στοχευμένη λιπογλυπτική περιγράμματος", "Λεμφική αποσυμφόρηση στο κλείσιμο", "Οδηγίες ενυδάτωσης & κίνησης"],
+      en: ["Elasticity assessment per area", "Body RF protocol", "Endola HIFU for deeper laxity", "Targeted contour sculpting", "Lymphatic drainage to close", "Hydration and movement guidance"],
     },
     faq: {
       el: [

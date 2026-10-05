@@ -345,11 +345,11 @@ function pageHome(lang) {
 
   const T = {
     title: {
-      el: "Κέντρο Αισθητικής & Αδυνατισμού Κως | BNL — Μαρία Μάμμη, Ζηπάρι",
+      el: "Κέντρο Αισθητικής & Αδυνατίσματος Κως | BNL — Μαρία Μάμμη, Ζηπάρι",
       en: "Beauty & Body Centre in Kos | BNL — Maria Mammi, Zipari",
     },
     desc: {
-      el: "Κέντρο αισθητικής & αδυνατισμού στο Ζηπάρι Κω. Καθαρισμός προσώπου, μεσοθεραπεία, RF, laser & ριζική αποτρίχωση, αδυνάτισμα, μασάζ — Μαρία Μάμμη, BSc Αισθητικός.",
+      el: "Κέντρο αισθητικής & αδυνατίσματος στο Ζηπάρι Κω. Καθαρισμός προσώπου, μεσοθεραπεία, RF, laser & ριζική αποτρίχωση, αδυνάτισμα, μασάζ — Μαρία Μάμμη, BSc Αισθητικός.",
       en: "BNL, aesthetics and body centre in Zipari, Kos. Facials, mesotherapy, RF, diode laser hair removal, electrolysis, slimming and massage, by Maria Mammi, BSc Aesthetician.",
     },
     kw: {
@@ -357,7 +357,7 @@ function pageHome(lang) {
       en: "beautician Kos, beauty salon Kos, aesthetician Zipari, laser hair removal Kos, facial Kos, slimming Kos, massage Kos, Maria Mammi",
     },
     h1: {
-      el: 'Κέντρο Αισθητικής<br />&amp; Αδυνατισμού <em>στην Κω</em>',
+      el: 'Κέντρο Αισθητικής<br />&amp; Αδυνατίσματος <em>στην Κω</em>',
       en: 'Aesthetics &amp; Body Centre<br />on the island of <em>Kos</em>',
     },
     lead: {
@@ -894,7 +894,7 @@ function pageArea(a, lang) {
         en: `Beautician in ${name} | BNL Aesthetics, Kos`,
       }, lang),
       desc: t({
-        el: `Κέντρο αισθητικής & αδυνατισμού για ${name}. Θεραπείες προσώπου, σώματος και αποτρίχωση laser στο Ζηπάρι Κω, ${a.km === 0 ? "στην περιοχή σας" : `${a.km} km μακριά`}.`,
+        el: `Κέντρο αισθητικής & αδυνατίσματος για ${name}. Θεραπείες προσώπου, σώματος και αποτρίχωση laser στο Ζηπάρι Κω, ${a.km === 0 ? "στην περιοχή σας" : `${a.km} km μακριά`}.`,
         en: `Aesthetics and body centre for ${name}. Face and body treatments and laser hair removal in Zipari, Kos, ${a.km === 0 ? "right in your area" : `${a.km} km away`}.`,
       }, lang),
       keywords: t({

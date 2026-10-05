@@ -1,5 +1,5 @@
 // ============================================================
-//  BNL — Κέντρο Αισθητικής & Αδυνατισμού · Ζηπάρι, Κως
+//  BNL — Κέντρο Αισθητικής & Αδυνατίσματος · Ζηπάρι, Κως
 //  Ταυτότητα, κοινά κείμενα (el/en), περιοχές, άρθρα.
 //  Μία πηγή αλήθειας για τη γεννήτρια — δεν πειράζουμε τα .html.
 // ============================================================
@@ -12,7 +12,7 @@ export const t = (v, lang) => (v && typeof v === "object" && !Array.isArray(v) ?
 
 export const BIZ = {
   brand: "BNL",
-  name: { el: "BNL — Κέντρο Αισθητικής & Αδυνατισμού", en: "BNL — Aesthetics & Body Centre" },
+  name: { el: "BNL — Κέντρο Αισθητικής & Αδυνατίσματος", en: "BNL — Aesthetics & Body Centre" },
   short: { el: "BNL Κέντρο Αισθητικής", en: "BNL Aesthetics Centre" },
   owner: { el: "Μαρία Μάμμη", en: "Maria Mammi" },
   ownerFull: { el: "Μαρία Μάμμη, MSc", en: "Maria Mammi, MSc" },
